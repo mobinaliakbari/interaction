@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  background-image: url(image/Wallpaper-of-cloud-and-wind-50.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+main > div > h1 {
+  padding: 10px;
+  font-size: 50px;
+}
+.rev {
+  background-color: rgba(133, 241, 228, 0.4);
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+div > a.linkOne {
+  text-decoration: none;
+  color: beige;
+  background-color: black;
+  border-radius: 9999px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.linkOne:hover {
+  background-color: aliceblue;
+  color: black;
+  transition: all 0.3s ease;
+  border: 1px solid black;
+}
+div > a.linkTwo {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 9999px;
+}
+.linkTwo:hover {
+  background-color: black;
+  color: aliceblue;
+  transition: all 0.3s ease;
+}
